@@ -9,10 +9,11 @@ function timer(){
     const hour = min * 60 
     const day = hour * 24
 
-    const textDate = Math.floor(gap/day)
-    const textHour = Math.floor((gap%day)/hour)
-    const textMin = Math.floor((gap%hour)/min)
-    const textSec = Math.floor((gap%min)/sec)
+    let textDate = Math.floor(gap/day)
+    let textHour = Math.floor((gap%day)/hour)
+    let textMin = Math.floor((gap%hour)/min)
+    let textSec = Math.floor((gap%min)/sec)
+    console.log(textSec)
 
     if (textSec < 10 ){
         textSec = "0" + textSec

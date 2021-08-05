@@ -20,7 +20,7 @@ body {
 
 
 .main {
-    background-image: url('/images/bg-stars.svg');
+    background-image: url('/images/bg-stars.svg?sanitize=true');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -92,7 +92,7 @@ h1 {
 
 
 .footer {
-background-image: url('/images/pattern-hills.svg');
+background-image: url('/images/pattern-hills.svg?sanitize=true');
 background-size: cover;
 position:fixed; top:auto; bottom:0; right:0; left:0;
 height: 168px;
